@@ -6,7 +6,6 @@ body {
     font-family: "Noto Sans KR", "Nanum Gothic";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
- 
 
 h1 {
     font-size: 3rem;    /* 글자 크기 */
@@ -19,12 +18,12 @@ h2 {
     font-size: 1.5rem;
     padding-bottom: 1em;
 }
+
 main {
     display: grid;    /* css grid 사용 */
     grid-template-columns: 40% 60%; /* 왼쪽 40%, 오른쪽 60% */
     margin-top: 3rem;
 }
-
 header {
     text-align: center;
     margin: auto 2rem;
@@ -52,6 +51,6 @@ h1, h2 {
 i {
     margin-right: 0.5rem;    /* SNS 아이콘 오른쪽 여백 */
 }
-#mainLeft {
+mainLeft {
     border-right: 1px solid lightgray;
 }
